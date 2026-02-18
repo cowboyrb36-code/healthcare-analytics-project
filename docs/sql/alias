@@ -1,0 +1,2 @@
+SELECT *
+FROM `my-healthcare-project-487800.healthanalysis.clean_data` AS c

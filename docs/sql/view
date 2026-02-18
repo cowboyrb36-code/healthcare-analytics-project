@@ -1,6 +1,4 @@
-CREATE OR REPLACE VIEW `healthanalysis.clean_data` AS
+CREATE OR REPLACE VIEW `my-healthcare-project-487800.healthanalysis.clean_data` AS
 SELECT *
 FROM `my-healthcare-project-487800.healthanalysis.healthcare_cleaned`;
-
-
 

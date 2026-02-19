@@ -47,23 +47,24 @@ healthcare-analytics-project/
     
 
 🧹 Data Cleaning Summary
+The dataset was cleaned using SQL in BigQuery. Key steps included:
 
-The dataset was cleaned using SQL and includes:
+Standardizing column names
 
-Standardized column names
+Converting Billing_Amount to numeric (FLOAT)
 
-Converted billing amounts to numeric
+Normalizing categorical fields
 
-Normalized categorical fields
+Validating and parsing date fields
 
-Removed duplicates
+Recomputing Length_of_Stay
 
-Validated date fields
+Removing duplicates
 
-Created a clean, reusable view: healthanalysis.clean_data
+Creating a reusable analysis view:
+healthanalysis.clean_data
 
-This view is used for all analysis queries.
-
+This view powers all downstream analysis.
 
 🔍 Exploratory Analysis
 
@@ -83,8 +84,7 @@ This step establishes the baseline understanding needed for deeper analysis.
 
 
 🏥 Clinical Insights
-
-The project includes SQL analysis of:
+Clinical analysis focuses on quality and outcomes:
 
 Abnormal Test Rates
 By medical condition
@@ -190,18 +190,16 @@ This provides a complete, executive‑ready view of patient outcomes and utiliza
 
 
 🔍 Project Objectives
-
-This project answers key healthcare business questions, including:
+This project answers key healthcare business questions:
 
 Clinical
 Which conditions have the highest abnormal test rates
 
 Which medications correlate with abnormal results
 
-Which hospitals show higher abnormal test patterns
+Which hospitals show higher abnormal patterns
 
-Which conditions lead to the longest length of stay
-
+Which conditions lead to the longest LOS
 
 Operational
 Which doctors treat the most patients
@@ -210,14 +208,12 @@ Which hospitals handle the highest volume
 
 What admission types are most common
 
-
 Financial
 Which conditions drive the highest billing
 
 Billing patterns by hospital
 
 Billing patterns by insurance provider
-
 
 Payer Mix
 Which insurance provider appears most frequently

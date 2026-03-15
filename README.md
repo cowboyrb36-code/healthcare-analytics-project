@@ -241,7 +241,7 @@ risk_tier (Low, Medium, High)
 This demonstrates predictive thinking without requiring machine learning.
 
 
-📈 Tableau Dashboard
+📈 Tableau Dashboard--------->  https://10ay.online.tableau.com/#/site/cowboyrb36-a76559a29b/workbooks/3579069?:origin=card_share_link
 
 The dashboard includes:
 
@@ -343,3 +343,5 @@ Clone the repo and run the queries using BigQuery
 🙌 Author
 Tarik Smith  
 Healthcare Analytics | SQL | Tableau | Data Storytelling
+
+https://10ay.online.tableau.com/#/site/cowboyrb36-a76559a29b/workbooks/3579069?:origin=card_share_link

@@ -1,20 +1,105 @@
-📊 Healthcare Analytics Project
-A full SQL + Tableau analysis of patient outcomes, utilization, and risk.
+📘 1. Overview & KPIs
+A high‑level executive summary displaying:
 
-🧭 Project Overview
-This project analyzes a synthetic healthcare dataset to uncover insights across clinical quality, hospital operations, financial performance, and patient risk. It demonstrates end‑to‑end analytics skills using SQL, data cleaning, exploratory analysis, KPI development, and dashboard‑ready insights.
+Total Patients
 
-The work reflects real healthcare analytics workflows, including:
+Average Billing per Patient
 
-Cleaning and standardizing raw patient data
+Average Length of Stay
 
-Running exploratory SQL to understand patterns
+Cost Tier Distribution
 
-Producing clinical, operational, and financial insights
+Global filters (Medical Condition, Insurance Provider, Cost Tier)
 
-Building a SQL‑based patient risk score
+Purpose: Provide leadership with a fast, 3‑second snapshot of operational and financial health.
 
-Designing a Tableau dashboard for executive‑level reporting
+💰 2. Cost & Billing
+A financial performance dashboard featuring:
+
+Billing by Medical Condition
+
+Insurance Provider Billing (segmented by cost tier)
+
+Global filters
+
+Purpose: Identify which conditions and payers drive the highest billing and cost exposure.
+
+🏥 3. Clinical Metrics
+A clinical variation dashboard featuring:
+
+Length of Stay by Condition
+
+Optional LOS breakdowns by cost tier or insurance provider
+
+Global filters
+
+Purpose: Reveal inefficiencies, variation, and opportunities for clinical optimization.
+
+📈 4. Admissions Over Time
+A trend analysis dashboard featuring:
+
+Admissions Over Time (2019–2024)
+
+Global filters
+
+Purpose: Visualize patient volume trends, seasonality, and year‑to‑year shifts to support capacity planning.
+
+🔍 Key Insights
+High‑cost patients represent a small portion of the population but a disproportionately large share of total billing.
+
+Diabetes, Obesity, and Arthritis consistently drive higher billing amounts.
+
+Length of stay varies significantly by condition, indicating potential areas for clinical improvement.
+
+Admissions show clear year‑to‑year fluctuations, suggesting seasonal or operational patterns.
+
+🧠 Technical Workflow
+Data Cleaning & Preparation
+Removed nulls, standardized categories, validated date formats
+
+Engineered features (Cost Tier, LOS Category, Age Group, etc.)
+
+Exported cleaned dataset to BigQuery for SQL analysis
+
+SQL Analysis (BigQuery)
+Aggregations for billing, LOS, admissions, and payer mix
+
+Validation queries to ensure data integrity
+
+Feature engineering and summary tables
+
+Visualization (Tableau)
+KPI tiles
+
+Bar charts, stacked bars, bubble charts
+
+Global filter synchronization
+
+Multi‑dashboard narrative structure
+
+🛠️ Tools Used
+Tableau — dashboard design & storytelling
+
+BigQuery SQL — data validation & analysis
+
+Excel / Google Sheets — initial cleaning
+
+GitHub — version control & documentation
+
+🎯 Outcome
+This project demonstrates my ability to:
+
+Build a complete analytics product from raw data
+
+Communicate insights clearly to technical and non‑technical audiences
+
+Design dashboards aligned with real healthcare analytics standards
+
+Deliver a polished, professional portfolio piece suitable for hiring managers
+
+👤 Author
+Tarik Smith  
+Data Analyst | SQL | Tableau | BigQuery | Healthcare Analytics
 
 📁 Repository Structure
 healthcare-analytics-project/
